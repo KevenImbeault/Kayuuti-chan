@@ -7,7 +7,8 @@ from discord.utils import get
 
 f = open('Bot_Credentials.txt', 'r') 
 
-TOKEN = f.readline().rstrip("\n\r")
+TOKEN =f.readline()
+print(TOKEN)
 
 client = discord.Client()
 
